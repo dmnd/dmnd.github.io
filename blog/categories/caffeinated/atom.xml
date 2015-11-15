@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: caffeinated | Desmond Brand]]></title>
+  <link href="http://desmondbrand.com/blog/categories/caffeinated/atom.xml" rel="self"/>
+  <link href="http://desmondbrand.com/"/>
+  <updated>2015-11-15T14:17:27-08:00</updated>
+  <id>http://desmondbrand.com/</id>
+  <author>
+    <name><![CDATA[Desmond Brand]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Caffeinated keeps your PC awake]]></title>
+    <link href="http://desmondbrand.com/blog/2011/09/19/caffeinated-keeps-your-pc-awake/"/>
+    <updated>2011-09-19T23:21:00-07:00</updated>
+    <id>http://desmondbrand.com/blog/2011/09/19/caffeinated-keeps-your-pc-awake</id>
+    <content type="html"><![CDATA[<p><img class="right" src="/images/caffeinated/menu.png">
+I use an excellent if simple program called <a href="http://lightheadsw.com/caffeine/">Caffeine</a> on OS X. Its only purpose is to temporarily prevent your computer from automically sleeping, or displaying the screensaver. A similar program called <a href="http://blogs.msdn.com/b/delay/archive/2009/09/30/give-your-computer-insomnia-free-tool-and-source-code-to-temporarily-prevent-a-machine-from-going-to-sleep.aspx">Insomnia</a> is available for Windows, but I dislike its UI.</p>
+
+<p>So, I built <a href="/caffeinated">Caffeinated</a>. It's a port of Caffeine that runs on Windows. The UI is straight-up lifted from Caffeine, and the entire program is pretty much just a usable wrapper around the <a href="http://msdn.microsoft.com/en-us/library/aa373208(VS.85).aspx">SetThreadExecutionState</a> function from the Windows API.</p>
+
+<p><img class="center" src="/images/caffeinated/settings.png"></p>
+
+<p>Despite its simplicity, I find it useful, and maybe you will too. <a href="/caffeinated">Read more</a> about it, or <a href="https://github.com/downloads/dmnd/Caffeinated/Caffeinated-1.0.zip">download it</a> now.</p>
+
+<div class="download-link"><a href="https://github.com/downloads/dmnd/Caffeinated/Caffeinated-1.0.zip"><img src="http://desmondbrand.com/images/download_64.png"><span>Download</span></a>
+<div>
+Version 1.0
+<span style="margin-left: 2em">125 kB</span>
+</div>
+</div>
+
+
+
+]]></content>
+  </entry>
+  
+</feed>

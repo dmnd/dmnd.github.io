@@ -1,124 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Desmond Brand</title>
-  <meta name="author" content="Desmond Brand">
-
-  
-  <meta name="description" content="Context: I recently posted about using Apache as a reverse-proxy for Google App Engine development. See that post for the motivation for monkeying &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://desmondbrand.com">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Desmond Brand" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-<link rel="openid.server" href="http://www.myopenid.com/server" />
-<link rel="openid.delegate" href="http://dmnd.myopenid.com/" />
-<link rel="openid2.local_id" href="http://dmnd.myopenid.com" />
-<link rel="openid2.provider" href="http://www.myopenid.com/server" />
-<meta http-equiv="X-XRDS-Location" content="http://www.myopenid.com/xrds?username=dmnd.myopenid.com" />
-
-  
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-1806043-2']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Desmond Brand</a></h1>
-  
-    <h2>Pressing buttons in the right order</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:desmondbrand.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/about">About</a></li>
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/caffeinated">Caffeinated</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[Desmond Brand]]></title>
+  <link href="http://desmondbrand.com/atom.xml" rel="self"/>
+  <link href="http://desmondbrand.com/"/>
+  <updated>2015-11-15T14:17:27-08:00</updated>
+  <id>http://desmondbrand.com/</id>
+  <author>
+    <name><![CDATA[Desmond Brand]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2011/12/05/using-nginx-as-a-reverse-proxy-for-speedy-app-engine-development/">Using nginx as a reverse proxy for speedy App Engine development</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2011-12-05T18:24:00-08:00" pubdate data-updated="true">Dec 5<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><em>Context:</em> I recently posted about <a href="/blog/2011/11/15/speed-up-your-app-engine-dev-server-with-an-apache-reverse-proxy">using Apache as a reverse-proxy for Google App Engine development</a>. See that post for the motivation for monkeying with Real Web Servers when what you really want to be doing is developing your GAE app. The quick version is that you can reduce your local pageload time by a factor of 20 or more, depending how many static assets (images, javascript, stylesheets) your app has.</p>
+  <entry>
+    <title type="html"><![CDATA[Using nginx as a reverse proxy for speedy App Engine development]]></title>
+    <link href="http://desmondbrand.com/blog/2011/12/05/using-nginx-as-a-reverse-proxy-for-speedy-app-engine-development/"/>
+    <updated>2011-12-05T18:24:00-08:00</updated>
+    <id>http://desmondbrand.com/blog/2011/12/05/using-nginx-as-a-reverse-proxy-for-speedy-app-engine-development</id>
+    <content type="html"><![CDATA[<p><em>Context:</em> I recently posted about <a href="http://desmondbrand.com/blog/2011/11/15/speed-up-your-app-engine-dev-server-with-an-apache-reverse-proxy">using Apache as a reverse-proxy for Google App Engine development</a>. See that post for the motivation for monkeying with Real Web Servers when what you really want to be doing is developing your GAE app. The quick version is that you can reduce your local pageload time by a factor of 20 or more, depending how many static assets (images, javascript, stylesheets) your app has.</p>
 
 <p>Proxying with Apache was a big improvement using the single-threaded, I/O blocking <code>dev_appserver.py</code> directly, but it was by no means perfect. I noticed that if I hadn&#8217;t hit Apache for a while, it&#8217;d take roughly 10 seconds before my next request would be served. If you know what you&#8217;re doing, it&#8217;s probably possible to configure Apache not to do this. But I don&#8217;t know what I&#8217;m doing, and Apache configuration isn&#8217;t exactly friendly.</p>
 
-<p><img class="right" src="/images/nginx-logo.png" title="Now that is a badass logo" ></p>
+<p><img class="right" src="http://desmondbrand.com/images/nginx-logo.png" title="Now that is a badass logo" ></p>
 
 <p>Instead, I switched to using <a href="http://wiki.nginx.org/Main">nginx</a>, which is sometimes described as a reverse proxy first and webserver second. It&#8217;s insanely fast at serving static files, uses little memory, and configuring it turned out to be easy. Also, who can resist that logo?</p>
 
@@ -204,50 +108,23 @@
 
 
 <p>If you needed to do anything else to get it running, please leave a comment to help the next person.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/11/15/speed-up-your-app-engine-dev-server-with-an-apache-reverse-proxy/">Speed up your App Engine dev server with an Apache reverse proxy</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-11-15T21:59:00-08:00" pubdate data-updated="true">Nov 15<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>When using the Google App Engine SDK in development mode, you have probably noticed that <code>dev_appserver.py</code> is incredibly slow. This is because all requests &#8211; even requests for static files like javascript, stylesheets or images &#8211; are handled sequentially by a single thread. Take a look at the timeline below. Does the left side look familiar?</p>
+  <entry>
+    <title type="html"><![CDATA[Speed up your App Engine dev server with an Apache reverse proxy]]></title>
+    <link href="http://desmondbrand.com/blog/2011/11/15/speed-up-your-app-engine-dev-server-with-an-apache-reverse-proxy/"/>
+    <updated>2011-11-15T21:59:00-08:00</updated>
+    <id>http://desmondbrand.com/blog/2011/11/15/speed-up-your-app-engine-dev-server-with-an-apache-reverse-proxy</id>
+    <content type="html"><![CDATA[<p>When using the Google App Engine SDK in development mode, you have probably noticed that <code>dev_appserver.py</code> is incredibly slow. This is because all requests &#8211; even requests for static files like javascript, stylesheets or images &#8211; are handled sequentially by a single thread. Take a look at the timeline below. Does the left side look familiar?</p>
 
 <p>At <a href="http://www.khanacademy.org">Khan Academy</a>, a single pageload in development mode might end up requesting as many as 100 different resources. This takes <code>dev_appserver.py</code> more than 35 seconds to serve, which sucks. Coupled with <a href="https://bugs.webkit.org/show_bug.cgi?id=30862">Webkit&#8217;s annoyingly aggressive cache</a>, this can really kill your <a href="http://xkcd.com/303/">productivity</a>.</p>
 
-<p><img class="center" src="/images/gae-proxy-before-after.png" title="Chrome timelines before and after serving static assets from Apache" ></p>
+<p><img class="center" src="http://desmondbrand.com/images/gae-proxy-before-after.png" title="Chrome timelines before and after serving static assets from Apache" ></p>
 
 <p>It&#8217;s possible to get a big speed boost by setting up Apache as a <a href="http://en.wikipedia.org/wiki/Reverse_proxy">reverse proxy</a> in front of your dev server. All requests for static assets will be handled by Apache, which is blazing fast compared to <code>dev_appserver.py</code>. The 35 second request above is fulfilled in only 2 seconds, with most of the static files loading in parallel (see the right side).</p>
 
-<p><em>Update 2011-11-15</em>: It turns out nginx is even quicker at serving static files, uses less memory, and easier to configure too! From here on I recommend <a href="/blog/2011/12/05/using-nginx-as-a-reverse-proxy-for-speedy-app-engine-development/">reading this post instead</a>, which tells you how to set up the same thing with <a href="http://wiki.nginx.org/Main">nginx</a> rather than Apache.</p>
+<p><em>Update 2011-11-15</em>: It turns out nginx is even quicker at serving static files, uses less memory, and easier to configure too! From here on I recommend <a href="http://desmondbrand.com/blog/2011/12/05/using-nginx-as-a-reverse-proxy-for-speedy-app-engine-development/">reading this post instead</a>, which tells you how to set up the same thing with <a href="http://wiki.nginx.org/Main">nginx</a> rather than Apache.</p>
 
 <h3>How to set this up</h3>
 
@@ -375,89 +252,35 @@
 <p>Also, Apache needs to be enabled - the easiest way to do this is to go to Sharing under System Preferences and check the &#8220;Web Sharing&#8221; item. If you already have it enabled, you may need to clear and check it again to force a restart. If it doesn&#8217;t start, check your config syntax with <code>apachectl -St</code>.</p>
 
 <p>This setup should work on OS X Lion. Small changes might be needed for other OSes. If you had to tweak anything, mention it in the comments.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/10/06/your-own-personal-hgignore-file/">Your own personal hgignore file</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-10-06T12:28:00-07:00" pubdate data-updated="true">Oct 6<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Sometimes people don&#8217;t agree on the contents of the tracked .hgignore file in the repository root. For example, I don&#8217;t like having *orig in .hgignore as having backup files show up when I <code>grep</code> is annoying. I solved that problem by removing the *orig pattern and telling other repository users about <code>hg purge</code>.</p>
+  <entry>
+    <title type="html"><![CDATA[Your own personal hgignore file]]></title>
+    <link href="http://desmondbrand.com/blog/2011/10/06/your-own-personal-hgignore-file/"/>
+    <updated>2011-10-06T12:28:00-07:00</updated>
+    <id>http://desmondbrand.com/blog/2011/10/06/your-own-personal-hgignore-file</id>
+    <content type="html"><![CDATA[<p>Sometimes people don&#8217;t agree on the contents of the tracked .hgignore file in the repository root. For example, I don&#8217;t like having *orig in .hgignore as having backup files show up when I <code>grep</code> is annoying. I solved that problem by removing the *orig pattern and telling other repository users about <code>hg purge</code>.</p>
 
 <p>But today I found another way to deal with different opinions for ignore files. <a href="http://mercurial.selenic.com/wiki/TipsAndTricks#Ignore_files_in_local_working_copy_only">Hidden away on the Mercurial wiki</a> is a nice tip about per-user hgignore files. In a repository&#8217;s hgrc you can reference an arbitrary file to be used in addition to the tracked .hgignore file. No more .hgignore wars!</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/09/19/caffeinated-keeps-your-pc-awake/">Caffeinated keeps your PC awake</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-09-19T23:21:00-07:00" pubdate data-updated="true">Sep 19<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img class="right" src="/images/caffeinated/menu.png">
+  <entry>
+    <title type="html"><![CDATA[Caffeinated keeps your PC awake]]></title>
+    <link href="http://desmondbrand.com/blog/2011/09/19/caffeinated-keeps-your-pc-awake/"/>
+    <updated>2011-09-19T23:21:00-07:00</updated>
+    <id>http://desmondbrand.com/blog/2011/09/19/caffeinated-keeps-your-pc-awake</id>
+    <content type="html"><![CDATA[<p><img class="right" src="http://desmondbrand.com/images/caffeinated/menu.png">
 I use an excellent if simple program called <a href="http://lightheadsw.com/caffeine/">Caffeine</a> on OS X. Its only purpose is to temporarily prevent your computer from automically sleeping, or displaying the screensaver. A similar program called <a href="http://blogs.msdn.com/b/delay/archive/2009/09/30/give-your-computer-insomnia-free-tool-and-source-code-to-temporarily-prevent-a-machine-from-going-to-sleep.aspx">Insomnia</a> is available for Windows, but I dislike its UI.</p>
 
-<p>So, I built <a href="/caffeinated">Caffeinated</a>. It&#8217;s a port of Caffeine that runs on Windows. The UI is straight-up lifted from Caffeine, and the entire program is pretty much just a usable wrapper around the <a href="http://msdn.microsoft.com/en-us/library/aa373208(VS.85).aspx">SetThreadExecutionState</a> function from the Windows API.</p>
+<p>So, I built <a href="http://desmondbrand.com/caffeinated">Caffeinated</a>. It&#8217;s a port of Caffeine that runs on Windows. The UI is straight-up lifted from Caffeine, and the entire program is pretty much just a usable wrapper around the <a href="http://msdn.microsoft.com/en-us/library/aa373208(VS.85).aspx">SetThreadExecutionState</a> function from the Windows API.</p>
 
-<p><img class="center" src="/images/caffeinated/settings.png"></p>
+<p><img class="center" src="http://desmondbrand.com/images/caffeinated/settings.png"></p>
 
-<p>Despite its simplicity, I find it useful, and maybe you will too. <a href="/caffeinated">Read more</a> about it, or <a href="https://github.com/downloads/dmnd/Caffeinated/Caffeinated-1.0.zip">download it</a> now.</p>
+<p>Despite its simplicity, I find it useful, and maybe you will too. <a href="http://desmondbrand.com/caffeinated">Read more</a> about it, or <a href="https://github.com/downloads/dmnd/Caffeinated/Caffeinated-1.0.zip">download it</a> now.</p>
 
-<div class="download-link"><a href="https://github.com/downloads/dmnd/Caffeinated/Caffeinated-1.0.zip"><img src="/images/download_64.png"><span>Download</span></a>
+<div class="download-link"><a href="https://github.com/downloads/dmnd/Caffeinated/Caffeinated-1.0.zip"><img src="http://desmondbrand.com/images/download_64.png"><span>Download</span></a>
 <div>
 Version 1.0
 <span style="margin-left: 2em">125 kB</span>
@@ -466,44 +289,17 @@ Version 1.0
 
 
 
-</div>
+]]></content>
+  </entry>
   
-  
+  <entry>
+    <title type="html"><![CDATA[Django's inclusion_tag is not cached in AppEngine]]></title>
+    <link href="http://desmondbrand.com/blog/2011/07/25/djangos-inclusion_tag-is-not-cached-in-appengine/"/>
+    <updated>2011-07-25T23:33:00-07:00</updated>
+    <id>http://desmondbrand.com/blog/2011/07/25/djangos-inclusion_tag-is-not-cached-in-appengine</id>
+    <content type="html"><![CDATA[<p>Since we starting using the massively convenient <a href="http://bjk5.com/post/6944602865/google-app-engine-mini-profiler">GAE Mini Profiler</a>, we were surprised to discover that we spend a significant amount of time reading files from disk. Here&#8217;s a particulary extreme example:</p>
 
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2011/07/25/djangos-inclusion_tag-is-not-cached-in-appengine/">Django&#8217;s inclusion_tag is not cached in AppEngine</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-07-25T23:33:00-07:00" pubdate data-updated="true">Jul 25<span>th</span>, 2011</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Since we starting using the massively convenient <a href="http://bjk5.com/post/6944602865/google-app-engine-mini-profiler">GAE Mini Profiler</a>, we were surprised to discover that we spend a significant amount of time reading files from disk. Here&#8217;s a particulary extreme example:</p>
-
-<p><a href="/images/gae_file_read_is_slow.png"><img src="/images/gae_file_read_is_slow.png" title="This is just stupidly slow" ></a></p>
+<p><a href="http://desmondbrand.com/images/gae_file_read_is_slow.png"><img src="http://desmondbrand.com/images/gae_file_read_is_slow.png" title="This is just stupidly slow" ></a></p>
 
 <p>This was contrary to my understanding that App Engine tries to cache almost any code-related file read. After investigating, I found that App Engine does try to cache templates &#8211; see the <a href="http://code.google.com/p/googleappengine/source/browse/trunk/python/google/appengine/ext/webapp/template.py#76">source of template.py</a>. But it turns out this only works when you render a template directly with <code>webapp.template.render</code>, and <em>not</em> when you use Django&#8217;s <code>inclusion_tag</code>.</p>
 
@@ -565,143 +361,7 @@ $ sudo opensnoop -n Python
 
 
 <p>Caveats: we&#8217;re still using Django 0.96, so there&#8217;s a chance this only applies to that version of Django on AppEngine.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2011/12/05/using-nginx-as-a-reverse-proxy-for-speedy-app-engine-development/">Using nginx as a reverse proxy for speedy App Engine development</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/11/15/speed-up-your-app-engine-dev-server-with-an-apache-reverse-proxy/">Speed up your App Engine dev server with an Apache reverse proxy</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/10/06/your-own-personal-hgignore-file/">Your own personal hgignore file</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/09/19/caffeinated-keeps-your-pc-awake/">Caffeinated keeps your PC awake</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2011/07/25/djangos-inclusion_tag-is-not-cached-in-appengine/">Django&#8217;s inclusion_tag is not cached in AppEngine</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/dmnd">@dmnd</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'dmnd',
-            count: 3,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-<section class="googleplus googleplus-hidden">
-  <h1>
-    <a href="https://plus.google.com/114666018387073101187?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h1>
-</section>
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - <a href="https://plus.google.com/114666018387073101187?rel=author" class="unstyled-link">+Desmond Brand</a>
-</p>
-
-</footer>
-  
-
-<script type="text/javascript">
-      var disqus_shortname = 'dmnd';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id; js.async = true;
-  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
